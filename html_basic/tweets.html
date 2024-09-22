@@ -3,21 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic HTML Page</title>
+    <title>Tweets</title>
 </head>
 <body>
-    <h1>Welcome to the Basic HTML Page</h1>
-    <p>This is a simple and valid HTML file structure.</p>
-    <h2>Welcome to My Webpage</h2>
-    <p>Here’s an embedded tweet:</p>
 
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">Just setting up my twttr <a href="https://twitter.com/jack/status/20?ref_src=twsrc%5Etfw">March 21, 2006</a></p>
-        &mdash; jack (@jack) <a href="https://twitter.com/jack/status/20?ref_src=twsrc%5Etfw">March 21, 2006</a>
-    </blockquote> 
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- Header with navigation -->
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
 
-    <p>If you want to go back to the homepage, <a href="index.html">click here</a>.</p>
-    <p>If you'd like to see my tweets, <a href="tweets.html">click here to visit the Tweets page</a>.</p>
+    <!-- Main content area -->
+    <main>
+        <article>
+            <h1>Embedded Tweets</h1>
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Just setting up my twttr <a href="https://twitter.com/jack/status/20?ref_src=twsrc%5Etfw">March 21, 2006</a></p>
+                &mdash; jack (@jack) <a href="https://twitter.com/jack/status/20?ref_src=twsrc%5Etfw">March 21, 2006</a>
+            </blockquote> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </article>
+        
+        <aside>
+            <p>Placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made by Ejikeme Vincent - <a href="https://www.ejims.com" target="_blank">here</a></p>
+    </footer>
+
 </body>
 </html>
